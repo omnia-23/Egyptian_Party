@@ -1,0 +1,160 @@
+.header {
+  display: flex;
+  height: 100vh;
+}
+.head {
+  background-image: url(../img/events-heavenly-header.jpg);
+  background-size: 100% 100%;
+  color: #fff;
+  width: 100%;
+}
+.head span {
+  font-size: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+.slider {
+  background-color: #111;
+  width: 0px;
+  transition: width 1s;
+}
+.slider a {
+  padding: 20px 8px 20px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  color: white;
+}
+.slider a:hover{
+  cursor: pointer;
+  color: #a51015;
+}
+.slider .close {
+  font-size: 35px;
+  margin: 0px 20px 0px 145px;
+}
+.slider .list {
+  margin-top: 80px;
+}
+
+.containt {
+  margin-top: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 60px;
+}
+.layer {
+  background-color: rgba(214, 46, 51, 0.6);
+  height: 100%;
+  overflow: hidden;
+}
+.singers {
+  width: 50%;
+  margin: 70px auto;
+}
+h3 {
+  background-color: rgba(214, 46, 51, 0.6);
+  color: #fff;
+  margin: 0px;
+  padding: 10px;
+  font-size: 30px;
+}
+.inner {
+  background-color:#ccc;
+  padding: 10px;
+}
+.container {
+  height: 100%;
+  width: 100%;
+}
+.counter {
+  background-image: url(../img/invitation-2508607__340.jpg);
+  background-size: 100% 100%;
+  height: 330px;
+}
+.timer {
+  border: #fff 1px solid;
+  padding: 50px;
+
+  font-size: 30px;
+}
+
+.join {
+  margin: 200px 0px 100px 0px;
+  color: #444444;
+}
+.join h4 {
+  font-size: 35px;
+  font-weight: bolder;
+}
+.join p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #777;
+  text-align: center;
+}
+.contact {
+  font-weight: bolder;
+  line-height: 22px;
+  color: #444444;
+  font-size: 18px;
+  margin: 5px 0px;
+}
+.icons {
+  margin: 50px auto;
+}
+.icons p {
+  margin: 40px;
+}
+.icons i {
+  color: #777;
+}
+#red {
+  color: #d62e33;
+}
+
+.social-list .fa{
+  color: #777;
+  border: 1px #777 solid;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  font-style:normal;
+  line-height: 40px;
+  margin-right: 10px;
+}
+.social-list .fa:hover {
+  background-color: #d62e33;
+  color: #fff;
+}
+input {
+  margin: 20px 0px;
+}
+#chars {
+  color: #d62e33;
+  font-size: 20px;
+}
+form div {
+  margin: 10px 0px;
+  text-align: start;
+  font-size: 15px;
+}
+.btn {
+  background-color: #d62e33;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 0;
+  text-transform: uppercase;
+}
+.btn:hover{
+  background-color: #d62e33;
+}
