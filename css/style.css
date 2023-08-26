@@ -124,7 +124,7 @@ h3 {
   color: #d62e33;
 }
 
-.social-list .fa{
+.social-list i{
   color: #777;
   border: 1px #777 solid;
   width: 40px;
@@ -135,7 +135,7 @@ h3 {
   line-height: 40px;
   margin-right: 10px;
 }
-.social-list .fa:hover {
+.social-list i:hover {
   background-color: #d62e33;
   color: #fff;
 }
