@@ -9,7 +9,7 @@ $(".close").click(function () {
 $(".slider a").click(function () {
   let href = $(this).attr("href");
   let offset = $(href).offset().top;
-  $("html,body").animate({ scrollTop: offset }, 50);
+  $("html,body").animate({ scrollTop: offset }, 1000);
 });
 
 $(".toggle").click(function () {
